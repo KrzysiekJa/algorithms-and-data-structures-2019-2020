@@ -87,4 +87,5 @@ int main(void){
 	bubbleSort::printVec(vec);
 	vec = comb_insert_shell_sort::shellSortKnuth(vec);
 	bubbleSort::printVec(vec);
+		
 }
