@@ -45,17 +45,4 @@ int main(void){
 	iter2 = vec.end();
 	vec.erase(iter1, iter2);
 	
-	
-	
-	/*for(int i = 0; i < length; ++i){
-		vec.push_back(static_cast<int>(rand() % 99 + 1));
-	}
-	
-	DivideAndConquer::printVec(vec, compared, swapped);
-	vec = DivideAndConquer::mergeSort(vec, compared, swapped);
-	cout << "Merge sort :" << endl;
-	DivideAndConquer::printVec(vec, compared, swapped);
-	
-	vec.clear();
-	delete vec;*/
 }
