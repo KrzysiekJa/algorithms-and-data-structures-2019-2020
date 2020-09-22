@@ -1,3 +1,4 @@
+#include <iostream>
 #include "BST_iter_trav_lib.hpp"
 
 
@@ -19,7 +20,10 @@ int main(void)
 	tree.add(17);
 	tree.add(20);
 	
+	std::cout << "Iterative BST:" << endl << "Pre order: " << endl;
 	tree.preOrder();
+	std::cout << "In order: " << endl;
 	tree.inOrder();
+	std::cout << "Post order: " << endl;
 	tree.postOrder();
 }
